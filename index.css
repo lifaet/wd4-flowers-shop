@@ -1,19 +1,28 @@
 * {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.navbar-div{
+    background: rgba(229, 84, 115, 0.15);
+
+}
 .nav-container {
     background: rgba(229, 84, 115, 0.10);
+    height: 100vh;
 }
 
 .font-text {
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 .font-img {
+    height: 81vh;
+}
+
+.font-img-cont {
+    position: relative;
     display: flex;
     align-items: end;
-    height: 85vh;
 }
 
 .sub-feature {
@@ -51,6 +60,46 @@
 
 }
 
-.hot-deal-img {
-    align-items: center;
+.get-latest-img{
+    width: 99%;
+
+}
+
+@media only screen and (max-width: 580px) {
+    .font-img {
+        height: 59vh !important;
+        display: flex;
+        align-items: end;
+        margin-top: 24vh;
+    }
+
+    .font-img-cont {
+        position: absolute;
+        display: flex;
+        align-items: end;
+    }
+    .font-text {
+        margin-top: 2%;
+    }
+
+    .hot-deal-img {
+        display:flex;
+        margin: auto;
+        margin-inline-start: 100%;
+
+    }
+    .hot-deal-image{
+        margin: auto;
+    }
+
+    .get-latest-img{
+        height: 22vh;
+        width: 100%;
+
+    }
+    .get-latest-card{
+        margin-top: -2rem!important;
+
+}
+
 }

@@ -19,14 +19,14 @@ $("#featurex").click(function () {
 });
 $("#hot").click(function () {
     $('html,body').animate({
-        scrollTop: $(".hot-container").offset().top - 45
+        scrollTop: $(".hot-container").offset().top
     },
         'fast');
 });
 $("#insta").click(function () {
 
     $('html,body').animate({
-        scrollTop: $(".insta-container").offset().top - 45
+        scrollTop: $(".insta-container").offset().top
     },
         'fast');
 });
